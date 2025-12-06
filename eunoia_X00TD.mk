@@ -16,6 +16,7 @@ $(call inherit-product, vendor/os/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
 EUNOIA_MAINTAINER := aepranata
+PRODUCT_PACKAGES += EunoiaMaintainerX00TD
 
 # Inherit from X00TD device
 $(call inherit-product, device/asus/X00TD/device.mk)
