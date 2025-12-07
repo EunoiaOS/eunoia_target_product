@@ -26,6 +26,7 @@ $(call inherit-product, vendor/os/config/common_full_phone.mk)
 
 TARGET_FACE_UNLOCK_SUPPORTED := true
 EUNOIA_MAINTAINER := Sabil²⁹
+PRODUCT_PACKAGES += EunoiaMaintainerRosy
 
 # Inherit from rosy device
 $(call inherit-product, device/xiaomi/rosy/device.mk)
