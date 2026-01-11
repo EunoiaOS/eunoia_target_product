@@ -16,6 +16,7 @@ $(call inherit-product, device/xiaomi/onclite/device.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
 EUNOIA_MAINTAINER := BayerischeMotorenWerke
+PRODUCT_PACKAGES += EunoiaMaintainerOnclite
 
 # Inherit some common EunoiaOS stuff.
 $(call inherit-product, vendor/os/config/common_full_phone.mk)
