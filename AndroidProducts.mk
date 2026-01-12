@@ -16,6 +16,7 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/eunoia_dipper.mk \
+    $(LOCAL_DIR)/eunoia_lavender.mk \
     $(LOCAL_DIR)/eunoia_mido.mk \
     $(LOCAL_DIR)/eunoia_onclite.mk \
     $(LOCAL_DIR)/eunoia_rosy.mk \
@@ -23,6 +24,7 @@ PRODUCT_MAKEFILES := \
 
 COMMON_LUNCH_CHOICES := \
     eunoia_dipper-userdebug \
+    eunoia_lavender-userdebug \
     eunoia_mido-userdebug \
     eunoia_onclite-userdebug \
     eunoia_rosy-userdebug \
